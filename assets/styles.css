@@ -1,0 +1,60 @@
+:root {
+  --navy: hsl(200, 60%, 20%);
+  --teal: hsl(180, 90%, 30%);
+  --teal-light: hsl(170, 40%, 50%);
+  --yellow: hsl(40, 90%, 60%);
+  --main-bg-color: hsl(20, 100%, 70%);
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  padding: 1rem;
+  background: var(--navy);
+  color: white;
+}
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+a {
+  color: var(--teal-light);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: var(--teal);
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--yellow);
+}
+.text-xs {
+  font-size: 1.2rem;
+}
+.text-sm {
+  font-size: 1.4rem;
+}
+.text-base {
+  font-size: 1.6rem;
+}
+.text-lg {
+  font-size: 1.8rem;
+}
+.text-xl {
+  font-size: 2rem;
+}
