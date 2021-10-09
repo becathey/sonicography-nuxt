@@ -1,7 +1,9 @@
 <template>
   <nav class="nav">
     <div class="logo">
-      <a href="#" class="logo text-lg">sonicography</a>
+      <nuxt-link :to="{ name: 'index' }" class="logo text-lg"
+        >sonicography</nuxt-link
+      >
     </div>
     <div class="nav-content">
       <ul>
