@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">sonicography</h1>
+      <h1 class="title"><span class="sonic">sonic</span>ography</h1>
       <h2 class="subtitle">Studio Albums of Sonic Youth</h2>
       <div class="links">
         <nuxt-link
@@ -42,11 +42,12 @@ export default {
 }
 .subtitle {
   color: hsl(220, 20%, 50%);
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 300;
   word-spacing: 5px;
 }
 .links {
-  padding-top: 15px;
+  margin-top: 30px;
+  /* padding-top: 15px; */
 }
 </style>

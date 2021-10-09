@@ -2,7 +2,7 @@
   <nav class="nav">
     <div class="logo">
       <nuxt-link :to="{ name: 'index' }" class="logo text-lg"
-        >sonicography</nuxt-link
+        ><span class="sonic">sonic</span>ography</nuxt-link
       >
     </div>
     <div class="nav-content">
@@ -30,6 +30,7 @@ nav {
 }
 .nav .nav-content {
   font-size: 1rem;
+  font-weight: bold;
 }
 .nav-content ul {
   display: flex;
