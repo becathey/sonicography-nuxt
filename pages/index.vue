@@ -4,15 +4,26 @@
       <h1 class="title">sonicography</h1>
       <h2 class="subtitle">Studio Albums of Sonic Youth</h2>
       <div class="links">
-        <a href="#" class="button-green">Confusion Is Sex</a>
-        <a href="#" class="button-green">Bad Moon Rising</a>
+        <nuxt-link
+          v-for="album in albums"
+          :to="{ name: 'albums-id', params: { id: album.id } }"
+          :key="album.id"
+          class="button-green"
+          >{{ album.title }}</nuxt-link
+        >
       </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    albums() {
+      return this.$store.state.albums.all;
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -38,5 +49,4 @@ export default {};
 .links {
   padding-top: 15px;
 }
-
 </style>
