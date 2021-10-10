@@ -38,6 +38,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Static images
+static/album-covers/
+
 # TypeScript v1 declaration files
 typings/
 

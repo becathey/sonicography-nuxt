@@ -2,6 +2,7 @@
   <div class="container">
     <article>
       <h1 class="title">{{ album.title }} ({{ album.year }})</h1>
+      <img :src="album.image" class="album-image" />
       <p>{{ album.content }}</p>
     </article>
     <aside>
@@ -46,6 +47,11 @@ export default {
 }
 .title {
   font-size: 2rem;
+}
+.album-image {
+  float: left;
+  width: 250px;
+  margin-right: 1rem;
 }
 aside {
   min-width: 280px;
