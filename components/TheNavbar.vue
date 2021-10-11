@@ -7,7 +7,9 @@
     </div>
     <div class="nav-content">
       <ul>
-        <li>About</li>
+        <li class="nav-link">
+          <nuxt-link :to="{ name: 'about' }">About</nuxt-link>
+        </li>
         <li>Band</li>
         <li>Info</li>
       </ul>
@@ -41,5 +43,12 @@ nav {
 }
 .nav-content ul li:not(:first-of-type) {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nav-link a {
+  color: white;
+  transition: all 0.3s ease;
+}
+.nav-link a:hover {
+  color: var(--yellow);
 }
 </style>
