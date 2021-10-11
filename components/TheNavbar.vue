@@ -10,7 +10,9 @@
         <li class="nav-link">
           <nuxt-link :to="{ name: 'about' }">About</nuxt-link>
         </li>
-        <li>Band</li>
+        <li class="nav-link">
+          <nuxt-link :to="{ name: 'band' }">Band</nuxt-link>
+        </li>
         <li>Info</li>
       </ul>
     </div>
