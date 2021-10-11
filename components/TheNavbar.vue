@@ -13,7 +13,9 @@
         <li class="nav-link">
           <nuxt-link :to="{ name: 'band' }">Band</nuxt-link>
         </li>
-        <li>Info</li>
+        <li class="nav-link">
+          <nuxt-link :to="{ name: 'links' }">Links</nuxt-link>
+        </li>
       </ul>
     </div>
   </nav>
