@@ -3,17 +3,28 @@
     <article>
       <h1 class="title">About</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo
-        accusamus eos totam? Praesentium quam nulla, eligendi vel inventore quia
-        illo itaque minima, fugit exercitationem animi ducimus magni, qui
-        expedita! Eos tenetur nihil maxime harum quia voluptatem doloremque
-        cumque, architecto itaque aliquam, molestias dolores blanditiis quisquam
-        ad? Quisquam ipsum pariatur voluptatibus alias laudantium, accusantium,
-        aperiam vitae earum sit neque cumque dicta perferendis, sint recusandae
-        fugiat repellendus! Dolorem vel, incidunt nam aspernatur reiciendis,
-        vero mollitia earum ea eum asperiores corrupti error labore consequuntur
-        atque. Itaque ad expedita numquam totam quam. Tempore nemo deleniti
-        mollitia facere voluptate minima enim molestias porro voluptas!
+        Sonic Youth was an American rock band based in New York City, formed in
+        1981. Founding members Thurston Moore (guitar, vocals), Kim Gordon
+        (bass, vocals, guitar) and Lee Ranaldo (guitar, vocals) remained
+        together for the entire history of the band, while Steve Shelley (drums)
+        followed a series of short-term drummers in 1985, rounding out the core
+        line-up. Jim O'Rourke (bass, keyboards, guitar) was also a member of the
+        band from 1999 to 2005, and Mark Ibold (guitar, bass) was a member from
+        2006 to 2011. Sonic Youth emerged from the experimental no wave art and
+        music scene in New York before evolving into a more conventional rock
+        band and becoming a prominent member of the American noise rock scene.
+        Sonic Youth have been praised for having "redefined what rock guitar
+        could do" using a wide variety of unorthodox guitar tunings while
+        preparing guitars with objects like drum sticks and screwdrivers to
+        alter the instruments' timbre. The band was a pivotal influence on the
+        alternative and indie rock movements. After gaining a large underground
+        following and critical praise through releases with SST Records in the
+        late 1980s, the band experienced mainstream success throughout the 1990s
+        and 2000s after signing to major label DGC in 1990 and headlining the
+        1995 Lollapalooza festival. In 2011, following the separation and
+        subsequent divorce of Gordon and Moore, the band played their final
+        shows in Brazil. Since the split, the members have said the band is
+        finished and would not reunite.
       </p>
     </article>
   </div>
