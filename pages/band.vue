@@ -3,6 +3,7 @@
     <article>
       <h1 class="title">The Band</h1>
       <div class="band-member">
+        <img src="/band-members/moore.jpg" class="musician-portrait" />
         <p>
           Thurston Moore (born July 25, 1958) is an American musician best known
           as a member of Sonic Youth. He has also participated in many solo and
@@ -19,6 +20,7 @@
         </p>
       </div>
       <div class="band-member">
+        <img src="/band-members/gordon.jpg" class="musician-portrait" />
         <p>
           Kim Gordon (born April 28, 1953) is an American musician, singer and
           songwriter, best known as the bassist, guitarist, and vocalist of
@@ -48,6 +50,7 @@
         </p>
       </div>
       <div class="band-member">
+        <img src="/band-members/ranaldo.jpg" class="musician-portrait" />
         <p>
           Lee Ranaldo (born February 3, 1956) is an American musician,
           singer-songwriter, guitarist, writer, visual artist and record
@@ -72,6 +75,7 @@
         </p>
       </div>
       <div class="band-member">
+        <img src="/band-members/shelley.jpg" class="musician-portrait" />
         <p>
           Steven Shelley (born June 23, 1962) is an American drummer, best known
           as a member of the alternative rock band Sonic Youth. Shelley was born
@@ -96,6 +100,7 @@
         </p>
       </div>
       <div class="band-member">
+        <img src="/band-members/orourke.jpg" class="musician-portrait" />
         <p>
           Jim O'Rourke (born January 18, 1969, Chicago, Illinois) is a
           Tokyo-based American musician, composer and record producer. He has
@@ -120,6 +125,7 @@
         </p>
       </div>
       <div class="band-member">
+        <img src="/band-members/ibold.jpg" class="musician-portrait" />
         <p>
           Mark Ibold (born October 17, 1962) is an American bass guitarist who
           was a member of the indie band Pavement from 1992 to 1999, and again
@@ -146,5 +152,16 @@
 }
 .title {
   font-size: 2rem;
+}
+.band-member {
+  border: 1px solid var(--yellow);
+  border-radius: 10px;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+.musician-portrait {
+  float: left;
+  width: 250px;
+  margin-right: 1rem;
 }
 </style>
