@@ -11,7 +11,7 @@
           <nuxt-link :to="{ name: 'about' }">About</nuxt-link>
         </li>
         <li class="nav-link">
-          <nuxt-link :to="{ name: 'band' }">Band</nuxt-link>
+          <nuxt-link :to="{ name: 'band' }">The Band</nuxt-link>
         </li>
         <li class="nav-link">
           <nuxt-link :to="{ name: 'links' }">Links</nuxt-link>
