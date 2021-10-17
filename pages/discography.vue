@@ -3,7 +3,8 @@
     <article>
       <h1 class="title">Discography</h1>
       <p>
-        A selected listing of Sonic Youth's studio albums and extended plays:
+        A selected discography, listing Sonic Youth's studio albums and extended
+        plays:
       </p>
       <ul class="discography">
         <li><span class="discography-date">1982</span> Sonic Youth (EP)</li>
