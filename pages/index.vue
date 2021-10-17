@@ -9,7 +9,7 @@
           :to="{ name: 'albums-id', params: { id: album.id } }"
           :key="album.id"
           class="button-green"
-          >{{ album.title }}</nuxt-link
+          ><img :src="album.image" class="button-image" />{{ album.title }}</nuxt-link
         >
       </div>
     </div>
@@ -48,6 +48,9 @@ export default {
 }
 .links {
   margin-top: 30px;
-  /* padding-top: 15px; */
+}
+.button-image {
+  display: block;
+  width: 200px;
 }
 </style>
