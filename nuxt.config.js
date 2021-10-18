@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "211007_sonicography",
+    title: "Sonicography",
     htmlAttrs: {
       lang: "en"
     },
