@@ -47,8 +47,6 @@ export default {
   word-spacing: 5px;
 }
 .links {
-  /* display: flex;
-  align-items: flex-start; */
   margin-top: 30px;
 }
 .button-image {

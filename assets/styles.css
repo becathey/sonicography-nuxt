@@ -3,7 +3,6 @@
   --teal: hsl(180, 90%, 30%);
   --teal-light: hsl(170, 40%, 50%);
   --yellow: hsl(40, 90%, 60%);
-  --main-bg-color: hsl(20, 100%, 70%);
 }
 html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -47,18 +46,6 @@ h4 {
 .sonic {
   text-shadow: 3px 3px 8px #000;
 }
-.text-xs {
-  font-size: 1.2rem;
-}
-.text-sm {
-  font-size: 1.4rem;
-}
-.text-base {
-  font-size: 1.6rem;
-}
 .text-lg {
   font-size: 1.8rem;
-}
-.text-xl {
-  font-size: 2rem;
 }
