@@ -17,6 +17,8 @@ export default {
 <style>
 .button-green {
   display: inline-block;
+  vertical-align: text-top;
+  max-width: 260px;
   border: 1px solid hsl(170, 40%, 40%);
   border-radius: 4px;
   margin: 5px;
@@ -27,5 +29,8 @@ export default {
 .button-green:hover {
   color: #fff;
   background-color: hsl(170, 40%, 40%);
+}
+.button-green:hover img {
+  opacity: 50%;
 }
 </style>
