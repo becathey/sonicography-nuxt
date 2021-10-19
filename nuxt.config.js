@@ -1,4 +1,23 @@
 export default {
+  generate: {
+    routes: [
+      "/albums/confusion",
+      "/albums/badMoon",
+      "/albums/evol",
+      "/albums/sister",
+      "/albums/daydream",
+      "/albums/goo",
+      "/albums/dirty",
+      "/albums/jetSet",
+      "/albums/washingMachine",
+      "/albums/leaves",
+      "/albums/ghosts",
+      "/albums/murray",
+      "/albums/nurse",
+      "/albums/ripped",
+      "/albums/eternal"
+    ]
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
