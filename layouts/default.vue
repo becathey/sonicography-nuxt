@@ -31,6 +31,6 @@ export default {
   background-color: hsl(170, 40%, 40%);
 }
 .button-green:hover img {
-  opacity: 50%;
+  opacity: 0.5;
 }
 </style>
