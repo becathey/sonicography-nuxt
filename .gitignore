@@ -38,10 +38,6 @@ build/Release
 node_modules/
 jspm_packages/
 
-# Static images
-static/album-covers/
-static/band-members/
-
 # TypeScript v1 declaration files
 typings/
 
