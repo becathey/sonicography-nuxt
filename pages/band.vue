@@ -162,10 +162,11 @@
   border-radius: 10px;
   margin: 1rem 0;
   padding: 1rem;
+  overflow: hidden;
 }
 .musician-portrait {
   float: left;
-  width: 250px;
+  width: 200px;
   margin-right: 1rem;
 }
 .musician-name {
