@@ -1,5 +1,7 @@
 # Sonicography
 
+This application displays information about the studio album discography of noise rock band Sonic Youth.
+
 ## Build Setup
 
 ```bash
